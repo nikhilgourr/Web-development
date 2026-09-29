@@ -1,0 +1,35 @@
+div{
+    font-size: 20px;
+    text-align: center;
+    width:200px;
+    height: 200px;
+    
+    
+    background-color: cornflowerblue;
+    border: 2px solid black;
+
+    position: absolute;
+    top:200px;
+    left:200px;
+
+    transition:all 2s ease-in;
+}
+
+div:hover{
+
+    transform:rotate(90deg); 
+    
+    background-color: hotpink;
+
+    /* transform:scale(2); for both X AND Y */ 
+
+    /* transform:scaleY(2); */
+
+    /* transform:scaleX(2); */
+
+    /* transform:scale(2,1); == (x,y) axis */
+}
+
+div:active{
+    background-color: aquamarine;
+}

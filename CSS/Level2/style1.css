@@ -1,0 +1,46 @@
+  /* Box Model in CSS
+    height ->  for box 
+    width -> for box
+
+    Border property
+    Border-width
+    Border-style
+    Border-color
+    Border-radius*/
+
+div{
+    background-color: pink;
+    height: 50px;
+    width:100px;
+
+    /* border-width:5px;
+    border-style:solid;
+    border-color:navy; */
+    border:5px solid navy;
+    border-radius:10px;
+    text-align:right;
+}
+
+button{
+    background-color: chartreuse;
+    border-width:5px;
+    border-style:dashed;
+    border-color: navy;
+    border-radius:2%;
+
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+} 
+
+h1{
+    background-color: rgb(215, 113, 215);
+    height:50px;
+    width:200px;
+
+    border-width:5px;
+    border-style:dashed;
+    border-color: navy;
+    border-radius:5px;
+    text-align:center;
+}

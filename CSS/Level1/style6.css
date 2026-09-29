@@ -1,0 +1,68 @@
+body{
+    background-color: darkblue;
+}
+
+#h3{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h4{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    text-align: center;
+}
+
+h1{
+    color:bisque;
+    font-weight: 900;
+}
+
+#p1{
+    color:antiquewhite;
+    font-weight: 600;
+}
+
+#p2{
+    color: aliceblue;
+    font-family:Arial;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+#h1{
+    color:antiquewhite;
+    font-weight: normal;
+    text-decoration:yellow wavy underline;
+}
+
+#h2{
+    color:antiquewhite;
+    font-weight: bolder;
+    text-decoration:yellow dotted underline;
+}
+
+#h3{
+    color:antiquewhite;
+    font-weight: lighter;
+    text-decoration:yellow double overline;
+}
+
+#h4{
+    color:antiquewhite;
+    font-weight: bold;
+    text-decoration:yellow line-through;
+}
+
+#h1{
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h2{
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

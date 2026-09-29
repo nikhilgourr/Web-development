@@ -1,0 +1,32 @@
+body{
+    background-color: navy;
+}
+
+p{
+    color: aliceblue;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+
+#p1{
+    color: aliceblue;
+    text-align:center;
+    text-transform: lowercase;
+    font-size:20px;
+}
+
+#p2{
+    color: aliceblue;
+    text-align:center;
+    text-transform: capitalize;
+    font-size:20px;
+}
+
+#p3{
+    color: aliceblue;
+    text-align:center;
+    text-transform: none;
+    font-size:20px;
+}

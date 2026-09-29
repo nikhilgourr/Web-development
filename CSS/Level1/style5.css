@@ -1,0 +1,61 @@
+body{
+    background-color: darkblue;
+}
+
+h1{
+    color: aliceblue;
+    text-align:center;
+    text-decoration: line-through;
+}
+
+#p1{
+    color: aliceblue;
+    text-align:start;
+    text-decoration: rgb(255,255,0) underline;
+}
+
+#p2{
+    color:aliceblue;
+    text-align:end;
+    text-decoration:overline;
+}
+
+#p3{
+    color:aliceblue;
+    text-align:center;
+    text-decoration:line-through;
+}
+
+#p4{
+    color:aliceblue;
+    text-align:justify;
+    text-decoration:overline;
+}
+
+#a1{
+    color:azure;
+}
+
+#a2{
+    color:azure;
+    text-decoration:none;
+}
+
+h2{
+    color: aliceblue;
+    text-align:center;
+    text-decoration: yellow wavy underline;
+}
+
+h3{
+    color:aliceblue;
+    text-align: center;
+    text-decoration: yellow dotted underline;
+}
+
+h4{
+    color:aliceblue;
+    text-align:center;
+    text-decoration:yellow double underline;
+}
+

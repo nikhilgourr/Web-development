@@ -1,0 +1,29 @@
+/* <!-- Display Property -->
+
+<!-- converting a block element into inline element using display --> */
+
+/* div{
+    background-color: pink;
+    display: inline;
+}
+
+button{
+    display: block;
+} */
+
+div{
+    width:100px;
+    height:100px;
+    margin:20px;
+    padding:20px;
+    /* display:inline; */
+    display:inline-block;
+}
+
+#hidden{
+    visibility:hidden;
+}
+
+#box5{
+    background-color: rgba(255,0,0,0.5);
+}

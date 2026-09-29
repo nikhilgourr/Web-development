@@ -1,0 +1,27 @@
+body{
+    background-color: midnightblue;
+}
+
+*{
+    color: rgb(136, 152, 84);
+}
+
+#heading1{
+    color:floralwhite;
+}
+
+#heading2{
+    color:rgb(48, 158, 232);
+}
+
+button{
+    color:rgb(0, 0, 0);
+    background-color: cornflowerblue;
+}
+
+.mulitiElements{
+    color:lightpink;
+}
+
+
+

@@ -1,0 +1,38 @@
+.container{
+    color: white;
+    border:2px solid black;
+
+    display:grid;
+    grid-template-areas: "nav nav nav nav "
+                         "side article article article"
+                         "footer footer footer footer";
+}
+
+.item{
+    border:2px solid black;
+    height:55px;
+}
+
+.item-1{
+    grid-area: nav;
+    background-color:blueviolet;
+}
+
+.item-2{
+    grid-area: side;
+    background-color: navy;
+}
+
+.item-3{
+    grid-area: article;
+    background-color: dodgerblue;
+}
+.item-4{
+    grid-area:footer;
+    background-color: maroon;
+}
+.item-5{
+    background-color:blue;
+}
+
+

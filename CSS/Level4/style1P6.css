@@ -1,0 +1,19 @@
+.navbar ul{    
+    background-color: pink;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    color: navy;
+    text-decoration: none;
+    /* background-color: navy; */
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}

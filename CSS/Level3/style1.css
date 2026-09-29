@@ -1,0 +1,41 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#box1{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+#box2{
+    position:relative;
+    /* top:20px; */
+    left:20px;
+    bottom:150px;
+}
+
+#box3{
+    position:absolute;
+    top:20px;
+    left:20px;
+    bottom:500px;
+}
+
+#box4{
+    position:fixed;
+    right:10px;
+    bottom:0px;
+    width:100vw; /* width:100% */
+}
+
+#box5{
+    position:sticky;
+    bottom:300px;
+}

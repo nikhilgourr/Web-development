@@ -1,0 +1,62 @@
+div{
+    height: 100px;
+    width:100px;
+    
+    color: white;
+    background-color:navy;
+
+    text-align: center;
+
+    position:relative;
+    top:200px;
+    left:100px;
+   
+
+    border:2px solid black;
+    border-radius: 5px;
+
+    animation-name: animation;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+
+    /* animation shorthand 
+    animation:animation_name 2s ease-in 4s infinite normal  */
+}
+
+
+@keyframes animation{
+    0%{
+        left: 0px;
+        background-color: navy;
+    }
+    50%{
+        color: black;
+        background-color: chartreuse;
+    }
+    100%{
+        left:150px;
+        background-color:cornflowerblue;
+        color: black;
+    }
+}
+
+/* @keyframes animation{
+    from{
+        left: 0px;
+        background-color: navy;
+    }
+    to{
+        left:150px;
+        background-color:cornflowerblue;
+        color: black;
+    }
+} */
+
+/* div:hover{
+    color: black;
+    background-color: cornflowerblue;
+} */

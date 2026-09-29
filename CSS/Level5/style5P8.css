@@ -1,0 +1,56 @@
+/* 1st animation */
+
+/* #div1{
+    height: 250px;
+    width:250px;
+
+    border:20px solid blue;
+    border-radius: 50%;  
+    border-top:20px solid black;
+    
+    animation:animation;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+}
+
+@keyframes animation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* 2nd animation   */
+
+/* 
+#div2{
+    height: 250px;
+    width:250px;
+
+    border:20px solid blue;
+    border-radius: 0%;  
+    border-top:20px solid black;
+    
+    animation:square;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+}
+
+@keyframes square{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */

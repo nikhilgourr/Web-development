@@ -1,0 +1,23 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#box2{
+    position:relative;
+    right:20px;
+
+    z-index:-1;
+}
+
+#box3{
+    position:absolute;
+    left:170px;
+    
+    z-index:-1;
+}

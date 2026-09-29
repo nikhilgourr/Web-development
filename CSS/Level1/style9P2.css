@@ -1,0 +1,24 @@
+body{
+    color:aliceblue;
+    background-color:navy;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+h1{
+    text-align:center;
+    text-transform: capitalize;
+}
+
+#outer{
+    color:aliceblue;
+    font-size:25px;
+}
+
+#inner{
+    color:aliceblue;
+    font-size:10px;
+}

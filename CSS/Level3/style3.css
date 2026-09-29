@@ -1,0 +1,26 @@
+div{
+    height:100px;
+    width:100px;
+
+    border:2px solid black;
+    border-radius:5px;
+
+    display:inline-block;
+}
+
+#box1{
+    background-color: pink;
+    background-image: url("/Level3/imgaes/tiger_image.jpg");
+    background-size: cover;
+}
+#box2{
+    background-color:aquamarine;
+    background-image: url("/Level3/imgaes/ganeshji_image.jpg");
+    background-size: contain;
+}
+#box3{
+    background-color:deepskyblue;
+}
+#box4{
+    background-color:sienna;
+}

@@ -1,0 +1,42 @@
+/* percent % unit */
+
+/* Parent */
+#box1{
+    height:100px;
+    width:100px;
+
+    background-color: green;
+}
+/* Child */
+#box2{
+    height: 50%;
+    width:30%;
+    background-color: yellow;
+    margin-left:10%;
+}
+
+/* Em */
+/* Parent */
+#box3{
+    height:100px;
+
+    width:100vw; /* viewport width */
+
+    background-color: red;
+    font-size :10px;
+    text-decoration:underline;
+    margin-left:10px;
+}
+/* Child */
+#box4{
+    /* height: 50%; */
+    width:30%;
+    background-color: pink;
+    font-size:2em;
+    text-decoration:1em;
+    margin-left:1.5em;
+    width:5rem;
+
+    height:100vh; /* viewport height */
+    /* width:5vw; */
+}

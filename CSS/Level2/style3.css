@@ -1,0 +1,18 @@
+/* padding-left,right,top,bottom */
+
+h1{
+    color:chartreuse;
+    background-color: darkblue;
+    text-align:center;
+
+    height:50px;
+    width:200px;
+
+    border-width:5px;
+    border-style:solid;
+    border-color: rgb(116, 116, 221);
+
+    padding-top:10px;
+    margin:10px 10px 10px 10px;
+    /* margin:top , right , bottom , left -> clockwise */
+}
