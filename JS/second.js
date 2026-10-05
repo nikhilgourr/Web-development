@@ -50,3 +50,14 @@ console.log(student.age);
 
 student.fullName = "Rahul Sharma";
 console.log(student.fullName);
+
+const product={
+    product_Name : "pen",
+    product_Rating : 7002,
+    product_Id : 10203,
+    product_price : 270
+};
+console.log(product.product_Id);
+console.log(product.product_Name);
+console.log(product.product_Rating);
+console.log(product.product_price);
