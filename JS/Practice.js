@@ -23,3 +23,12 @@ if(score>=90 && score <=100){
 }else{
     console.log("Grade is F");
 }
+
+// Q3
+let gameNumber = 25;
+let userNumber = prompt("Guess the game number");
+
+while(userNumber != gameNumber){
+    userNumber = prompt("You entered wrong number. Guess again");
+}
+console.log("Congratulation , you entered right number");
