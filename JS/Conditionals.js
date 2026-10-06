@@ -34,7 +34,7 @@ if(num%2==0){
 
 // Else if Statement
 
-let modee = "green";
+let modee = "grey";
 let colorr;
 
 if(modee==="dark"){
@@ -49,3 +49,10 @@ if(modee==="dark"){
     color="white";
 }
 console.log(color);
+
+// Using only if
+let mod ="black";
+
+if(mod === "black"){
+    console.log(mod);
+}

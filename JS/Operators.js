@@ -53,3 +53,8 @@ let cond6 = k===l;
 
 console.log(! (cond5)); // false -> true
 console.log(! (cond6)); // ture -> false
+
+// ternary operator
+
+let n = 18;
+console.log(n>18 ? "adult" : "Not adult");
