@@ -28,3 +28,13 @@ console.log(str.charAt(1));
 console.log(str.charAt(2));
 console.log(str.charAt(3));
 
+// We can also acces characters using [indexNumber] this
+console.log(str[4]);
+console.log(str[5]);
+console.log(str[6]);
+console.log(str[7]);
+console.log(str[8]);
+console.log(str[9]);
+console.log(str[10]);
+console.log(str[11]);
+
