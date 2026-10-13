@@ -6,7 +6,7 @@
 // Use the reduce method to calculate sum of all numbers in the array.
 // Use the reduce method to calculate product of all numbers in the array.
 
-// Q2
+// Q1
 let mark = [75, 90, 92, 95, 67, 98, 41];
 
 let toppers = mark.filter((val) => {
@@ -15,7 +15,7 @@ let toppers = mark.filter((val) => {
 console.log(toppers);
 
 
-// Q3
+// Q2
 let n = prompt("Enter a number ");
 let arr = [];
 
@@ -24,14 +24,14 @@ for (let i = 1; i <= n; i++) {
 }
 console.log(arr);
 
-// Q3 - Sum of all elemetns of array
+// Q2 - Sum of all elemetns of array
 let sum = arr.reduce((prev, current) => {
     return prev + current;
 })
 console.log("Additon of above array elements is : ", sum);
 
 
-// Q3 - Product of all elemetns of array
+// Q2 - Product of all elemetns of array
 let product = arr.reduce((prev, current) => {
     return prev * current;
 });
