@@ -1,0 +1,17 @@
+body{
+    background-color:saddlebrown;
+}
+
+.myClass{
+    background-color: azure;
+    color: black;
+}
+
+button{
+    background-color: antiquewhite;
+    color: maroon;
+}
+
+#p1{
+    color:white;
+}
